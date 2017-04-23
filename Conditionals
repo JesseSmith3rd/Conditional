@@ -1,0 +1,30 @@
+// LetsPratice.cpp : Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <string>
+#include <iostream>
+using namespace std;
+
+
+
+int main(int argc, char ** argv)
+{
+	int x = 42;
+	//int y = 7;
+	int y = 88;
+	printf("the greater is: %d\n", x > y ? x : y); //conditional expression
+	
+	//if (x < y)		
+		// {
+		//puts("conditions are true");
+		//puts("x<y");
+	//}
+	//else if (x > y) {
+	//	puts("x>y");
+	//}
+	//else {
+		//puts("conditions are false");
+		//puts("they must be equal");
+	//}
+	return 0;
+}
